@@ -2221,7 +2221,100 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@k6js/ks-next@npm:^0.3.0":
+"@k6yarn/workspace@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@k6yarn/workspace@workspace:."
+  dependencies:
+    "@babel/core": ^7.15.5
+    "@babel/plugin-proposal-class-properties": ^7.14.5
+    "@babel/plugin-proposal-object-rest-spread": ^7.15.6
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.15.0
+    "@babel/preset-env": ^7.15.6
+    "@babel/preset-react": ^7.14.5
+    "@babel/preset-typescript": ^7.15.0
+    "@changesets/cli": ^2.17.0
+    "@keystone-next/keystone": ^27.0.1
+    "@manypkg/cli": ^0.18.0
+    "@preconstruct/cli": ^2.1.5
+    babel-eslint: ^10.1.0
+    babel-jest: ^27.2.1
+    eslint: 7.32.0
+    eslint-plugin-prettier: ^4.0.0
+    jest: ^27.2.1
+    prettier: ^2.4.1
+  languageName: unknown
+  linkType: soft
+
+"@keystone-next/auth@npm:^35.0.0":
+  version: 35.0.0
+  resolution: "@keystone-next/auth@npm:35.0.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    "@keystone-ui/button": ^5.0.2
+    "@keystone-ui/core": ^3.2.1
+    "@keystone-ui/fields": ^5.0.1
+    "@keystone-ui/notice": ^4.1.1
+    cross-fetch: ^3.1.4
+    fast-deep-equal: ^3.1.3
+    graphql: ^15.6.1
+  peerDependencies:
+    "@keystone-next/keystone": ^27.0.0
+    react: ^17.0.2
+  checksum: 3d4b2701efa5a09f6ab518df871cc89899434fefd73994694d299d9da3f0b91ecf7328c903f9a79496686de7bc248f96cb67da5bc6228ee469a7f17e04922fb0
+  languageName: node
+  linkType: hard
+
+"@keystone-next/document-renderer@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@keystone-next/document-renderer@npm:4.0.1"
+  peerDependencies:
+    react: ^16.14.0 || 17
+  checksum: eea49e3be339d7dc7285fcbe681bfe6296bc64422516867e9fe631c607013a18eda6120e364ce3fee269973f9bcbc79bfdb6a3376be6bf3a0303ae6aa11502e1
+  languageName: node
+  linkType: hard
+
+"@keystone-next/fields-document@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@keystone-next/fields-document@npm:12.0.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    "@braintree/sanitize-url": ^5.0.2
+    "@emotion/weak-memoize": ^0.2.5
+    "@keystone-next/document-renderer": ^4.0.1
+    "@keystone-ui/button": ^5.0.2
+    "@keystone-ui/core": ^3.2.1
+    "@keystone-ui/fields": ^5.0.1
+    "@keystone-ui/icons": ^4.0.2
+    "@keystone-ui/popover": ^4.0.5
+    "@keystone-ui/tooltip": ^4.0.3
+    "@types/react": ^17.0.33
+    apollo-server-errors: ^3.2.0
+    apply-ref: ^1.0.0
+    fp-ts: ^2.11.5
+    graphql: ^15.6.1
+    io-ts: ^2.2.16
+    io-ts-excess: ^1.0.1
+    is-hotkey: ^0.2.0
+    match-sorter: ^6.3.1
+    mdast-util-definitions: ^4.0.0
+    mdast-util-from-markdown: ^0.8.5
+    mdast-util-gfm-autolink-literal: ^0.1.3
+    mdast-util-gfm-strikethrough: ^0.2.3
+    micromark-extension-gfm-autolink-literal: 0.5.7
+    micromark-extension-gfm-strikethrough: 0.6.5
+    react: ^17.0.2
+    scroll-into-view-if-needed: ^2.2.28
+    slate: ^0.60.4
+    slate-history: ^0.60.4
+    slate-react: ^0.60.4
+  peerDependencies:
+    "@keystone-next/keystone": ^27.0.0
+  checksum: dc630985410eb66767051db4c06b38b1aa5d943d256e36edbe12fc40855c05aa4c7f30d736a8ee4962a0f753d8007c37c185a82ba0396f3bf891c3bbbb5c218d
+  languageName: node
+  linkType: hard
+
+"@keystone-next/keystone@npm:@k6js/ks-next@0.3.0":
   version: 0.3.0
   resolution: "@k6js/ks-next@npm:0.3.0"
   dependencies:
@@ -2323,99 +2416,6 @@ __metadata:
   bin:
     k6js-next: bin/cli.js
   checksum: c98f7dcdcf3d6395987558c424883c0675f635f414685ec9e4d70e9679246fa4d2ff2555d376cfb10b0c3cdf4083067f4ffab2b61721052beb259bd12f7f485b
-  languageName: node
-  linkType: hard
-
-"@k6yarn/workspace@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@k6yarn/workspace@workspace:."
-  dependencies:
-    "@babel/core": ^7.15.5
-    "@babel/plugin-proposal-class-properties": ^7.14.5
-    "@babel/plugin-proposal-object-rest-spread": ^7.15.6
-    "@babel/plugin-syntax-dynamic-import": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.15.0
-    "@babel/preset-env": ^7.15.6
-    "@babel/preset-react": ^7.14.5
-    "@babel/preset-typescript": ^7.15.0
-    "@changesets/cli": ^2.17.0
-    "@k6js/ks-next": ^0.3.0
-    "@manypkg/cli": ^0.18.0
-    "@preconstruct/cli": ^2.1.5
-    babel-eslint: ^10.1.0
-    babel-jest: ^27.2.1
-    eslint: 7.32.0
-    eslint-plugin-prettier: ^4.0.0
-    jest: ^27.2.1
-    prettier: ^2.4.1
-  languageName: unknown
-  linkType: soft
-
-"@keystone-next/auth@npm:^35.0.0":
-  version: 35.0.0
-  resolution: "@keystone-next/auth@npm:35.0.0"
-  dependencies:
-    "@babel/runtime": ^7.15.4
-    "@keystone-ui/button": ^5.0.2
-    "@keystone-ui/core": ^3.2.1
-    "@keystone-ui/fields": ^5.0.1
-    "@keystone-ui/notice": ^4.1.1
-    cross-fetch: ^3.1.4
-    fast-deep-equal: ^3.1.3
-    graphql: ^15.6.1
-  peerDependencies:
-    "@keystone-next/keystone": ^27.0.0
-    react: ^17.0.2
-  checksum: 3d4b2701efa5a09f6ab518df871cc89899434fefd73994694d299d9da3f0b91ecf7328c903f9a79496686de7bc248f96cb67da5bc6228ee469a7f17e04922fb0
-  languageName: node
-  linkType: hard
-
-"@keystone-next/document-renderer@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@keystone-next/document-renderer@npm:4.0.1"
-  peerDependencies:
-    react: ^16.14.0 || 17
-  checksum: eea49e3be339d7dc7285fcbe681bfe6296bc64422516867e9fe631c607013a18eda6120e364ce3fee269973f9bcbc79bfdb6a3376be6bf3a0303ae6aa11502e1
-  languageName: node
-  linkType: hard
-
-"@keystone-next/fields-document@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "@keystone-next/fields-document@npm:12.0.0"
-  dependencies:
-    "@babel/runtime": ^7.15.4
-    "@braintree/sanitize-url": ^5.0.2
-    "@emotion/weak-memoize": ^0.2.5
-    "@keystone-next/document-renderer": ^4.0.1
-    "@keystone-ui/button": ^5.0.2
-    "@keystone-ui/core": ^3.2.1
-    "@keystone-ui/fields": ^5.0.1
-    "@keystone-ui/icons": ^4.0.2
-    "@keystone-ui/popover": ^4.0.5
-    "@keystone-ui/tooltip": ^4.0.3
-    "@types/react": ^17.0.33
-    apollo-server-errors: ^3.2.0
-    apply-ref: ^1.0.0
-    fp-ts: ^2.11.5
-    graphql: ^15.6.1
-    io-ts: ^2.2.16
-    io-ts-excess: ^1.0.1
-    is-hotkey: ^0.2.0
-    match-sorter: ^6.3.1
-    mdast-util-definitions: ^4.0.0
-    mdast-util-from-markdown: ^0.8.5
-    mdast-util-gfm-autolink-literal: ^0.1.3
-    mdast-util-gfm-strikethrough: ^0.2.3
-    micromark-extension-gfm-autolink-literal: 0.5.7
-    micromark-extension-gfm-strikethrough: 0.6.5
-    react: ^17.0.2
-    scroll-into-view-if-needed: ^2.2.28
-    slate: ^0.60.4
-    slate-history: ^0.60.4
-    slate-react: ^0.60.4
-  peerDependencies:
-    "@keystone-next/keystone": ^27.0.0
-  checksum: dc630985410eb66767051db4c06b38b1aa5d943d256e36edbe12fc40855c05aa4c7f30d736a8ee4962a0f753d8007c37c185a82ba0396f3bf891c3bbbb5c218d
   languageName: node
   linkType: hard
 
@@ -9557,9 +9557,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "keystone-app@workspace:packages/api"
   dependencies:
-    "@k6js/ks-next": ^0.3.0
     "@keystone-next/auth": ^35.0.0
     "@keystone-next/fields-document": ^12.0.0
+    "@keystone-next/keystone": ^27.0.1
     typescript: ^4.4.4
   languageName: unknown
   linkType: soft

@@ -3,15 +3,15 @@
   "version": "3.0.2",
   "private": true,
   "scripts": {
-    "dev": "k6js-next dev",
-    "start": "k6js-next start",
-    "build": "k6js-next build",
-    "postinstall": "k6js-next postinstall"
+    "dev": "keystone-next dev",
+    "start": "keystone-next start",
+    "build": "keystone-next build",
+    "postinstall": "keystone-next postinstall"
   },
   "dependencies": {
-    "@k6js/ks-next": "^0.3.0",
     "@keystone-next/auth": "^35.0.0",
     "@keystone-next/fields-document": "^12.0.0",
+    "@keystone-next/keystone": "^27.0.1",
     "typescript": "^4.4.4"
   }
 }
