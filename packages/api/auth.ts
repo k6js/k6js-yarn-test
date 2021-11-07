@@ -10,7 +10,7 @@ For more on auth, check out: https://keystonejs.com/docs/apis/auth#authenticatio
 import { createAuth } from '@keystone-next/auth';
 
 // See https://keystonejs.com/docs/apis/session#session-api for the session docs
-import { statelessSessions } from '@keystone-next/keystone/session';
+import { statelessSessions } from '@k6js/ks-next/session';
 
 let sessionSecret = process.env.SESSION_SECRET;
 
